@@ -1,4 +1,5 @@
 # Virtual environments
+utilvenv/
 .venv/
 
 # Python bytecode and caches
