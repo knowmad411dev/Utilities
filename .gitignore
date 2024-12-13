@@ -1,8 +1,10 @@
 # Virtual environments
-utilvenv/
 .venv/
+venv/
+utilvenv/
 
 # Python bytecode and caches
+*.pyc
 __pycache__/
 *.py[cod]
 *.pyo
@@ -22,6 +24,10 @@ dist/
 .vscode/
 .idea/
 *.sublime-*
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs and temporary files
 *.log
